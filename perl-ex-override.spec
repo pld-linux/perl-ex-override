@@ -6,7 +6,7 @@
 %define	pdir	ex
 %define	pnam	override
 Summary:	ex::override - Perl pragma to override core functions
-Summary(pl.UTF-8):   ex::override - możliwość przeciążania głównych funkcji Perla
+Summary(pl.UTF-8):	ex::override - możliwość przeciążania głównych funkcji Perla
 Name:		perl-ex-override
 Version:	1.1
 Release:	1
