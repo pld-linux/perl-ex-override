@@ -6,7 +6,7 @@
 %define	pdir	ex
 %define	pnam	override
 Summary:	ex::override - Perl pragma to override core functions
-Summary(pl):	ex::override - mo¿liwo¶æ przeci±¿ania g³ównych funkcji Perla
+Summary(pl.UTF-8):   ex::override - moÅ¼liwoÅ›Ä‡ przeciÄ…Å¼ania gÅ‚Ã³wnych funkcji Perla
 Name:		perl-ex-override
 Version:	1.1
 Release:	1
@@ -33,17 +33,17 @@ passed to "ex::override" in a name based, or hash style. The key is
 the name of the core function to override, the value is your
 subroutine to replace the core's.
 
-%description -l pl
-"ex::override" to prosty sposób przeci±¿ania g³ównych funkcji Perla:
+%description -l pl.UTF-8
+"ex::override" to prosty sposÃ³b przeciÄ…Å¼ania gÅ‚Ã³wnych funkcji Perla:
 
   use ex::override
     length => \&mylength,
     open   => \&myopen;
 
-Przeci±¿anie g³ównej funkcji nastêpuje w czasie kompilacji. Argumenty
-s± przekazywane do "ex::override" w oparciu o nazwy lub w stylu
-tablicy asocjacyjnej. Kluczem jest nazwa g³ównej funkcji do
-przeci±¿enia, a warto¶ci± w³asna procedura maj±ca zast±piæ perlow±.
+PrzeciÄ…Å¼anie gÅ‚Ã³wnej funkcji nastÄ™puje w czasie kompilacji. Argumenty
+sÄ… przekazywane do "ex::override" w oparciu o nazwy lub w stylu
+tablicy asocjacyjnej. Kluczem jest nazwa gÅ‚Ã³wnej funkcji do
+przeciÄ…Å¼enia, a wartoÅ›ciÄ… wÅ‚asna procedura majÄ…ca zastÄ…piÄ‡ perlowÄ….
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
