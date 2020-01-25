@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	ex
 %define	pnam	override
 Summary:	ex::override - Perl pragma to override core functions
