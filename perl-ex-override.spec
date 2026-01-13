@@ -8,7 +8,7 @@ Summary:	ex::override - Perl pragma to override core functions
 Summary(pl.UTF-8):	ex::override - możliwość przeciążania głównych funkcji Perla
 Name:		perl-ex-override
 Version:	1.1
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
